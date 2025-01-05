@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Playwrite+AU+VIC+Guides&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.main {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.book {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.home-page {
+  width: 100dvw;
+  background: url("../public/images/old-library.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  width: 40%;
+  height: 50%;
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details * {
+  background-color: darkslategrey;
+  box-shadow: 5px 5px 0.2em lightgray;
+  border-radius: 20px;
+  opacity: 0.8;
+  color: white;
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attributes {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 2%;
+  background-color: #00b4d8;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  position: absolute;
+  bottom: 2%;
+  left: 425%;
+  box-shadow: 2px 2px 0.3em black;
+}
+
+.attributes:hover {
+  transform: scale(0.9);
+}
+
+.attributes:active {
+  transform: scale(1.1);
+}
+
+.attributes:visited {
+  color: Black;
+}
+
+.attributes-page {
+  width: 100dvw;
+  background: url("../public/images/old-library.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attributes-page a {
+  height: 20%;
+  width: 50%;
+  text-align: center;
+}
+
+.home {
+  height: 5%;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  align-self: center;
+  margin-top: 2%;
+  background-color: #00b4d8;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0.3em black;
+  transition: all 0.5s ease;
+}
+
+.home:hover {
+  transform: scale(0.9);
+}
+
+.home:active {
+  transform: scale(1.1);
+}
+
+.home:visited {
+  color: Black;
+}
+
+.bookshelf {
+  width: 20vw;
+  height: 90%;
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  border-radius: 20px;
+  /* box-shadow: 5px 5px 0.5em lightgray; */
+}
+.bookshelf nav {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bookshelf nav * {
+  height: 30%;
+}
+
+.bookshelf nav div * {
+  height: 80%;
+  width: 18%;
+  background: url("../public/images/old-book.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0em lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+.bookshelf nav div *:link {
+  color: white;
+}
+
+.bookshelf nav div *:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.bookshelf nav div *:active {
+  transform: scale(1.1);
+}
+
+.bookshelf nav div *:visited {
+  color: white;
+}
+
+.bookshelf h2 {
+  height: 6%;
+  width: 90%;
+  align-self: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0em lightgray;
+  background-color: slategray;
+  opacity: 0.8;
+}
+
+.bookshelf nav div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bookshelf div * {
+  text-decoration: none;
+  list-style: none;
+  height: 80%;
+}
+
+.page-buttons {
+  position: absolute;
+  width: 50dvw;
+  height: 10%;
+  left: 30dvw;
+  bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page-buttons button {
+  width: 15%;
+  height: 80%;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 0.5em black;
+  background-color: #00b4d8;
+  transition: all 0.5s ease;
+}
+
+.page-buttons button:hover {
+  background-color: #99d98c;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.page-buttons button:active {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+.github {
+  position: absolute;
+  right: 6%;
+  bottom: 25%;
+  width: 5%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  box-shadow: 1px 1px 0.1em lightgray;
+  background-color: darkslategray;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.5s ease;
+  color: lightgray;
+}
+
+.github:hover {
+  transform: scale(0.9);
+}
+
+.github:active {
+  transform: scale(1.1);
+}
+
+.github:visited {
+  color: lightgray;
+}
+
+.linkedin {
+  position: absolute;
+  right: 6%;
+  bottom: 45%;
+  width: 5%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: darkslategray;
+  box-shadow: 1px 1px 0.1em lightgray;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.5s ease;
+  color: lightgray;
+}
+
+.linkedin:hover {
+  transform: scale(0.9);
+}
+
+.linkedin:active {
+  transform: scale(1.1);
+}
+
+.linkedin:visited {
+  color: lightgray;
+}
